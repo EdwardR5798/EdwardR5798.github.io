@@ -1,0 +1,158 @@
+body {
+    background-color: #BB6B24;
+    color: #0a0705;
+    font-family: Verdana, Arial, "Times New Roman";
+    background-image: linear-gradient(to bottom, #BB6B24, #964315);
+
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: url(coffeebeanroasts.jpg);
+    background-position: center;
+
+}
+
+header a {
+    text-decoration: none;
+
+}
+
+header a:link {
+    color: #0a0705;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #9ACD32;
+}
+
+nav {
+    background-color: #8a5d3c;
+    font-weight: Bold;
+    font-size: 160%;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    width: 160px;
+    height: 100vh;
+    
+}
+
+/* a for anchor to help add more depth for chaning hyperlinks to not have underline*/
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #0a0705;
+}
+
+nav a:visited {
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #9ACD32;
+    transition: color 2s linear;
+}
+
+footer {
+    font-size: .90em;
+    text-align: Center;
+    font-family: Georgia, "times new roman", serif;
+
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+#contact {
+    width: 20%;
+    padding-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+main{
+   margin-left: 160px;
+   padding-left: 10px;
+}
+
+h3 {
+    font-family: Georgia, Arial, "Times new roman";
+}
+
+#special {
+    clear: both;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 4px solid #FFFFFF;
+}
+td,
+th {
+    padding: 0.5em;
+    border: 2px Solid #38220F;
+    Color: #ECE0D1;
+    Font-weight: Bold;
+}
+
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    
+}
+tr:nth-of-type(odd) {
+    background-color: #38220f;
+}
+tr:nth-of-type(even) {
+    background-color: #967259;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 130px;
+    padding-right: 5px;
+    
+}
+
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+input[type="reset"] {
+	margin-left: 140px;
+}
+
+form { background-color: #bd733ea4;
+    font-family: Arial, Georgia;
+    width: 350px; 
+    padding: 25px; 
+    float: left;
+    
+
+}

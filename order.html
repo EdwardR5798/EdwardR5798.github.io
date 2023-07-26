@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <Title>Rhodes Coffee Co</Title>
+    <meta Charset="utf-8">
+    <link href="coffee.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+
+        <H1><a href="index.html">Rhodes Coffee Co</a></H1>
+
+    </header>
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="order.html">Order</a>
+        <a href="menu.html">Menu</a><br>
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+
+    <main>
+        <h2>Order Form</h2>
+        <P>Required Fields are marked with an Asterisk *</P>
+
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="myFName">*First Name:</label>
+            <input type="text" name="myFName" id="myFName" required="required">
+            <label for="myLName">*Last Name:</label> <input type="text" name="myLName" id="myLName" required="required">
+            <label for="phone">*Phone: </label> <input type="tel" name="phone" id="phone" maxlength="12"
+                required="required">
+            <label for="date">Pick Up Date:</label>
+            <input type="date" name="date" id="date">
+
+            Add a flavor?
+            <select  size="1" name="flavor" id="flavor">
+                <option value="none">None</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="cinnamon">Cinnamon</option>
+                <option value="whitechocolate">White Chocolate</option>
+                <option value="pumpkingspice">Pumpkin Spice</option>
+                <option value="brownsugar">Brown Sugar</option>
+             </select><br><br>
+
+             
+             Choose your drink:
+        
+             <input type="checkbox" name="espresso" id="espresso" value="yes"> Espresso
+             <input type="checkbox" name="latte" id="latte" value="yes"> Latte
+             <input type="checkbox" name="mocha" id="mocha" value="yes"> Mocha
+             <input type="checkbox" name="cappuccino" id="cappuccino" value="yes"> Cappuccino
+             <input type="checkbox" name="americano" id="americano" value="yes">americano
+             <input type="checkbox" name="macchiato" id="macchiato" value="yes">Macchiato
+
+            <input type="Submit" value="Submit">
+            
+        </form>
+       
+
+
+
+
+
+
+
+        <div id="contact">
+            Rhodes Coffee Co <br>
+            123 Main Street <br>
+            Centralia, WA 98531 <br>
+            <br>
+            888-263-3337<br>
+            <br>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        Copyright &copy; 2023 Rhodes Coffee Co <br>
+        <a href="mailto:edward.rhodes5798@davistech.edu">
+            edward.rhodes5798@davistech.edu"
+        </a>
+        <br><br>
+
+        <img src="logo.jpg" alt="coffee logo">
+    </footer>
+</body>
+
+</html>
